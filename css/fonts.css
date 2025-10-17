@@ -1,0 +1,56 @@
+body{
+    background-color: greenyellow;
+}
+p{
+    font-size: 30px;
+}
+.p1{
+color: violet;
+ font-family: Georgia, serif;
+}
+.p2{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.p3{
+    font-family: "Lucida Console", Courier, monospace; 
+}
+.p4{
+     font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.p5{
+ font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.p6{
+font-style: italic;
+}
+.p7{
+font-style: oblique;
+}
+.p8{
+font-variant: small-caps;
+}
+.p9{
+   text-transform: uppercase; 
+}
+.p10{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: aquamarine;
+   
+}
+.p11{
+    text-decoration: overline;
+    text-decoration-color: blue;
+    text-shadow: 2px -2px 5px rgb(0, 255, 34);
+}
+.p12{
+    text-shadow: 2px -2px 5px fuchsia;
+}
+.s1{
+    font-size: 2em;
+     text-shadow: 2px -2px 5px rgb(174, 0, 255);
+}

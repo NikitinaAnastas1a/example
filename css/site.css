@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+}
+:root {
+            --color-dark: #0a0a1a;
+            --color-light: #ffffff;
+            --gradient-1-start: #00BFFF;
+            --gradient-1-end: #8A2BE2;
+            --gradient-2-start: #FF1493;
+            --gradient-2-end: #FFA500;
+        }
+body{
+    background-color: #ffc8da;
+
+}
+header{
+    background-color: gold;
+    height: 300px;
+    color: rgb(255, 255, 255);
+}
+nav, aside{
+    width: 20%;
+
+    float: left;
+}
+main{
+    width: 60%;
+
+    background-color: rgb(255, 192, 213);
+    float: left;
+}
+footer{
+    background-image: linear-gradient(90deg, var(--gradient-1-start), var(--gradient-1-end));
+    color: rgb(14, 70, 255);
+    clear: both;
+}
+h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+article{
+    margin: 10px;
+    text-align: justify;
+    border: solid orange 2px;
+
+}
+.bg-video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bg-video video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+
+}
+h1{
+    z-index: 2;
+    font-size: 6vw;
+}
+@media only screen and(max-width:600px){
+    .mc{
+        width: 100%;
+    }
+}
+/*посилання*/
+.myButton {
+    margin-left: 40px;
+    margin-top: 10px;
+	box-shadow: 0px 1px 0px 1px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display: block;
+    margin: 10px auto;
+    width: fit-content; 
+	cursor:pointer;
+	color:#505739;
+	font-family:Georgia;
+	font-size:24px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.mc{
+    width: 30%;
+    display: inline-block;
+
+}
+@media only screen and(max-width:600px){
+    section.mc{
+        width: 100%;
+    }
+}
+.mc p{
+    margin-left: 20px;
+    font-size: 24px;
+}
+.mc a{
+    text-decoration: none;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+    padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.mc iframe{
+    float: right;
+}
+
+
+
+
+
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 25px;
+  margin: 10px auto;
+    display: block;
+    width: fit-content;
+}
+.button-85 a{
+    text-decoration: none;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
